@@ -88,6 +88,8 @@ body {
 .breadcrumbs {
     &__inner {
         padding: 45px 0px 40px;
+        overflow: hidden;
+        width: 1200px;
     }
 
     &__list {
@@ -132,4 +134,10 @@ body {
         color: $green;
         font-size: 14px;
     }
+}
+
+// pop up
+
+#modal {
+    display: none;
 }
